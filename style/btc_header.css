@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: rgb(3,25,56);
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-left: 24px;
+    margin-right: 15px;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    width: 245px;
+    justify-content: center;
+}
+
+.middle-section {
+    position: relative;
+}
+
+.nav {
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    transition: 0.15s;
+}
+
+.nav:hover {
+    color: orange;
+    cursor: pointer;
+}

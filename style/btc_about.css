@@ -1,0 +1,586 @@
+.top-main-section {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    height: 300px;
+    background: linear-gradient(to right, rgba(3,25,56,0.95) 30%, rgba(3,25,56,0.30));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.text-container {
+    display: inline-block;
+}
+
+.about-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.underline {
+    background-color: orange;
+    width: 200px;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    width: 410px;
+    margin-top: 15px;
+    color: white;
+    line-height: 30px;
+}
+
+.lautech-school-gate {
+    position: absolute;
+    height: 300px;
+    width: 1345px;
+    object-fit: cover;
+    right: 0px;
+    left: 0px;
+    filter: opacity(0.1);
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    right: 600px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+}
+
+.dot {
+    width: 18px;
+    height: 6px;
+    background: white;
+    border-radius: 20px;
+}
+
+.about-middle-section {
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(255, 246, 228);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.who-we-are {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1300px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.about-image {
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.brief-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.title-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+
+.tag {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(3,25,56);
+    margin-top: 15px;
+}
+
+.description-words {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 465px;
+    color: rgb(15, 50, 100);
+    margin-top: 15px;
+}
+
+.description-words-contd {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 465px;
+    color: rgb(15, 50, 100);
+    margin-top: 15px;
+}
+
+.vision-mission-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.motto-container,
+.vision-container,
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 240px;
+    height: 265px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+.motto-title,
+.vision-title,
+.mission-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3,25,56);
+    margin-top: 25px;
+}
+
+.little-line {
+    background-color: orange;
+    width: 30px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.little-line-v {
+    background-color: rgb(216, 236, 253);
+    width: 30px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.little-line-mi {
+    background-color: orange;
+    width: 30px;
+    height: 2px;
+    margin-top: 5px;
+}
+
+.motto-text,
+.vision-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(15, 50, 100);
+    font-style: italic;
+    width: 200px;
+}
+
+.mission-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+    color: rgb(15, 50, 100);
+    font-style: italic;
+    width: 200px;
+}
+
+.mission-content {
+    margin-top: 5px;
+}
+
+.aim-objective-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1300px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+}
+
+.aim-objective-img {
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+.aim-objectives {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.aim-objective-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(3,25,56);
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.aim-objective-text {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+
+.check-mark {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.aim-objective {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-style: italic;
+    color: rgb(15, 50, 100);
+}
+
+.value-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.value-img {
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.principle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.value-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+
+.guiding-principe {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(3,25,56);
+    margin-top: 15px;
+}
+
+.principle-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.excellence-container,
+.integrity-container,
+.focus-container,
+.innovation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.icon-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.priciple-titles {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(3,25,56);
+    margin-top: 10px;
+}
+
+.excel-text-container,
+.integrity-text-container,
+.focus-text-container,
+.innovation-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.excel-text,
+.integrity-text,
+.focus-text,
+.innovation-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 50, 100);
+    line-height: 20px;
+}
+
+.why-choose-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.center {
+    margin-left: 535px;
+}
+
+.why-choose-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(3,25,56);
+}
+
+.littled-line {
+    background-color: orange;
+    width: 30px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+
+.why-choose-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qualified-tutors,
+.innovation,
+.community,
+.commitment,
+.experienced-tutors,
+.quality-education {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin-right: 8px;
+    margin-left: 8px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.content-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.common-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.content-words-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+}
+
+.content-words {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 50, 100);
+    margin-top: 10px;
+}
+
+.addition-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3,25,56);
+    border-radius: 10px;
+    height: 80px;
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.supports-container,
+.tsession-container,
+.success-container,
+.qualified-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.all-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.word-content-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 15px;
+}
+
+.number {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.support-text,
+.session-text,
+.success-text,
+.qualified-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-line {
+    background-color: orange;
+    height: 30px;
+    width: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bottom-main-section {
+    position: absolute;
+    top: 1920px;
+    left: 0px;
+    right: 0px;
+    height: 180px;
+    background-color: rgb(3,25,56);
+}
+
+.bottom-first {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-tutorial-name{
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bottom-tagline{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.quicklink-container,
+.support-container,
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color: white;
+}
+
+.quick-link,
+.support,
+.head-contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bottom-nav {
+    text-decoration: none;
+    color: white;
+}
+
+.home,
+.bot-about,
+.bot-services,
+.bot-history,
+.faq,
+.resources, 
+.bot-contact {
+    margin-bottom: 5px;
+}
+
+.phone-line,
+.email,
+.location {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.phone-icon,
+.location-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.email-icon {
+    height: 17px;
+    width: 17px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}

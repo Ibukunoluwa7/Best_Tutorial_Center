@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .gallery-stack{
+                position: relative;
+                width: 300px;
+                height: 220px;
+            }
+
+            .gallery-stack img{
+                position: absolute;
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                transition: 0.3s;
+            }
+
+            .img1{
+                transform: rotate(-8deg);
+                z-index: 1;
+            }
+
+            .img2{
+                transform: rotate(5deg);
+                z-index: 2;
+            }
+
+            .img3{
+                transform: rotate(0deg);
+                z-index: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="gallery-stack">
+            <img src="icon/academic-support.png" class="img1">
+            <img src="icon/calender.png" class="img2">
+            <img src="icon/vision-2.png" class="img3">
+        </div>
+    </body>
+</html>

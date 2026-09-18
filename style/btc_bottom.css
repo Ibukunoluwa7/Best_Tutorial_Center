@@ -1,0 +1,95 @@
+.bottom-main-section {
+    position: absolute;
+    top: 887px;
+    left: 0px;
+    right: 0px;
+    height: 180px;
+    background-color: rgb(3,25,56);
+}
+
+.bottom-first {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-tutorial-name{
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bottom-tagline{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.quicklink-container,
+.support-container,
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color: white;
+}
+
+.quick-link,
+.support,
+.head-contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bottom-nav {
+    text-decoration: none;
+    color: white;
+}
+
+.home,
+.bot-about,
+.bot-services,
+.bot-history,
+.faq,
+.resources, 
+.bot-contact {
+    margin-bottom: 5px;
+}
+
+.phone-line,
+.email,
+.location {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.phone-icon,
+.location-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.email-icon {
+    height: 17px;
+    width: 17px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}

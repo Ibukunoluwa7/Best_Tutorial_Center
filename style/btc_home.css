@@ -1,0 +1,361 @@
+.top-main-section {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    height: 300px;
+    background: linear-gradient(to right, rgba(3,25,56,0.95) 40%, rgba(3,25,56,0.35));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    z-index: 1;
+}
+
+.text-container {
+    display: inline-block;
+}
+
+.welcome {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: orange;
+}
+
+.tutorial-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.tagline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 5px;
+    color: orange;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 380px;
+    margin-top: 15px;
+    color: white;
+    line-height: 30px;
+}
+
+.lautech-school-gate {
+    position: absolute;
+    height: 300px;
+    width: 1345px;
+    object-fit: cover;
+    right: 0px;
+    left: 0px;
+    filter: opacity(0.1);
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    right: 600px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+}
+
+.dot {
+    width: 18px;
+    height: 6px;
+    background: white;
+    border-radius: 20px;
+}
+
+.middle-main-section {
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ss-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+
+.our-service {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(3,25,56);
+    margin-bottom: 10px;
+    margin-left: -23px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tutorial-session-container,
+.personal-assistance-container,
+.exam-preparation-container,
+.history-records-container {
+    border: none;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 200px;
+    margin-right: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+.assignment-help-container {
+    border: none;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 200px;
+    margin-right: 25px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+.noticeboard {
+    border: none;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 200px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.tutorial-icon,
+.personal-ass-icon,
+.assignment-icon,
+.exam-icon,
+.history-icon,
+.notice-icon  {
+    margin-left: 80px;
+    margin-top: 7px;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    color: rgb(3,25,56);
+}
+
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center; 
+    line-height: 20px;
+    color: rgb(15, 50, 100);
+}
+
+.both-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.little-about-us {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 250px;
+    width: 632px;
+    margin-left: -645px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.tutorial-pic {
+    height: 220px;
+    width: 250px;
+    padding-left: 15px;
+    padding-top: 16px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us {
+    font-weight: bold;
+    color: orange;
+    margin-top: 16px;
+}
+
+.middle-name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(3,25,56);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(9, 39, 82);
+}
+
+.learnmore-button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(3,25,56);
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+.learnmore-button:hover {
+    cursor: pointer;
+}
+
+.announcement-container {
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 250px;
+    width: 632px;
+    margin-right: -645px;
+    margin-left: 25px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.announcement-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.latest-announcement {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(3,25,56);
+}
+
+.view-button {
+    border-width: 1px;
+    border-color: rgb(3,25,56);
+    border-radius: 5px;
+    color: rgb(3,25,56);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.tutorial-resumption {
+    display: flex;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(3,25,56);
+}
+
+.assignment-submission {
+    display: flex;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(3,25,56);
+}
+
+.semester-tutorial-ends {
+    display: flex;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(3,25,56);
+}
+
+.resumption-container,
+.submission-container,
+.tutorial-ends-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.end-semester-icon,
+.submission-icon,
+.resumption-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.resumption,
+.submission,
+.tutorial-ends {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.resumpton-date,
+.submission-date,
+.tutorial-ends-date {
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap;
+    color: rgb(9, 39, 82);
+}
+
+.date-posted {
+    position: absolute;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    white-space: nowrap;
+    color: rgb(9, 39, 82);
+}

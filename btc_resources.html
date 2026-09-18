@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Famutimi Ibukunoluwa">
+        <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+        <title>Best Tutorial Center</title>
+        <link rel="icon" href="btc_logo/Screenshot-2025-12-10-223653.png" type="image/x-icon">
+        <link rel="stylesheet" href="style/btc_header.css">
+        <link rel="stylesheet" href="style/btc_resources.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="logo" src="btc_logo/Screenshot-2025-12-10-223653.png" alt="">
+                <div class="name">BEST TUTORIAL CENTER</div>
+            </div>
+
+            <div class="middle-section">
+                <nav>
+                    <a class="nav" href="btc_home_page.html">Home</a>
+                    <a class="nav" href="btc_about.html">About Us</a>
+                    <a class="nav" href="btc_service.html">Services</a>
+                    <a class="nav" href="btc_history.html">History</a>
+                    <a class="nav" href="btc_gallery.html">Gallery</a>
+                    <a class="nav" href="btc_notice-board.html">Notice Board</a>
+                    <a class="nav" href="btc_resources.html">Resources</a>
+                    <a class="nav" href="btc_contact-us.html">Contact Us</a>
+                </nav>   
+            </div>
+
+            <div class="right-section">
+                
+            </div>
+        </header>
+
+        <main>
+            <div class="top-main-section">
+                <div class="text-container">
+                    <div class="resources-title">
+                        Resources
+                    </div>
+                    <div class="underline"></div>
+                    <div class="resources-description">
+                        Access a wide range of learning materials, study guides, past questions and useful links to support your academic success.
+                    </div>
+                </div>
+                <img class="lautech-school-gate" src="images/Lautech-School-Gate.jpg" alt="">
+
+                <div class="slider-dots">
+                    <div class="dot active"></div>
+                    <div class="dot "></div>
+                    <div class="dot "></div>
+                </div>
+            </div>
+        
+            <div class="resources-middle-section">
+                <div class="resource-catg-mat">
+                    <div class="resource-categories-container">
+                        <div class="resource-categories-title">Resource Categories</div>
+                        <div class="all-resources">
+                            <img class="all-resources-icon" src="icon/resources.png" alt="">
+                            <div class="all-resources-click">All Resources</div>
+                        </div>
+                        <div class="catg-resources">
+                            <img class="catg-resources-icon" src="icon/e-book.png" alt="">
+                            <div class="catg-resources-txt">Lecture Notes</div>
+                        </div>
+                        <div class="catg-resources">
+                            <img class="catg-resources-icon" src="icon/past-question.png" alt="">
+                            <div class="catg-resources-txt">Past Question</div>
+                        </div>
+                        <div class="catg-resources">
+                            <img class="catg-resources-icon" src="icon/study-guides.png" alt="">
+                            <div class="catg-resources-txt">Study Guides</div>
+                        </div>
+                        <div class="catg-resources">
+                            <img class="catg-resources-icon" src="icon/video-tutorial.png" alt="">
+                            <div class="catg-resources-txt">Video Tutorials</div>
+                        </div>
+                        <div class="catg-resources">
+                            <img class="catg-resources-icon" src="icon/useful-links.png" alt="">
+                            <div class="catg-resources-txt">Useful Links</div>
+                        </div>
+                        <div class="catg-resources">
+                            <img class="catg-resources-icon" src="icon/e-book.png" alt="">
+                            <div class="catg-resources-txt">E-Books</div>
+                        </div>
+                        <div> 
+                            <div class="catg-resources">
+                                <div class="others-cont">
+                                    <div class="others-dot"></div>
+                                    <div class="others-dot"></div>
+                                    <div class="others-dot"></div>
+                                </div>
+                                <div class="catg-resources-txt">Others</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="need-materials-container">
+                        <div class="need-materials-title">
+                            <img class="need-materials-icon" src="icon/need-materials.png" alt="">
+                            <div class="need-materials">Need Materials?</div>
+                        </div>
+                        <div class="materials-request-content">
+                            <div class="need-materials-request">
+                                Can't find what you are looking for? 
+                            </div>
+                            <div class="need-materials-request2">
+                                Request a resource and we'll help you out.
+                            </div>
+                        </div>
+                        <button class="request-button">
+                            Request Resource
+                        </button>
+                    </div>
+                </div>
+
+                <div class="download-resources">
+                    <div class="search-sort-container">
+                        <!-- SEARCH -->
+                        <div class="search-box">
+                            <span class="search-icon">&#128269;</span>
+                            <input type="text" id="searchInput" placeholder="Search notices...">
+                        </div>
+
+                        <!-- sortby -->
+                        <div class="sortby-wrapper">
+                            <button class="sortby-btn" id="sortbyBtn">
+                                &#9881; Sort by: Latest ▼
+                            </button>
+
+                            <div class="sortby-menu" id="sortbyMenu">
+                                <div>Latest First</div>
+                                <div>Oldest First</div>
+                                <div>Assignments</div>
+                                <div>Examinations</div>
+                                <div>Events</div>
+                            </div>
+                        </div>
+                        <script>
+
+                            const sortbyBtn = document.getElementById("sortbyBtn");
+                            const sortbyMenu = document.getElementById("sortbyMenu");
+
+                            // Toggle sortby dropdown
+
+                            sortbyBtn.addEventListener("click", () => {
+
+                            if(sortbyMenu.style.display === "block"){
+                                sortbyMenu.style.display = "none";
+                            }else{
+                                sortbyMenu.style.display = "block";
+                            }
+
+                            });
+
+                            // Close dropdown when clicking outside
+
+                            window.addEventListener("click", (e) => {
+
+                            if(
+                                !sortbyBtn.contains(e.target) &&
+                                !sortbyMenu.contains(e.target)
+                            ){
+                                sortbyMenu.style.display = "none";
+                            }
+
+                            });
+
+                        </script>
+                    </div>
+
+                    <div class="resources-file-container">
+                        <div class="first-file">
+                            <img class="file-icon" src="icon/lecture-notes.png" alt="">
+                            <div class="file-content">
+                                <div class="file-title">Engineering Mathematics 1 Lecture Notes</div>
+                                <div class="file-tag-1">Lecture Notes</div>
+                                <div class="date-download">
+                                    <div class="date-time-cont">
+                                        <img class="date-time-icon" src="icon/calender3.png" alt="">
+                                        <div class="date-posted">May 24, 2026</div>
+                                    </div>
+                                    <div class="megabyte-cont">
+                                        <img src="icon/notepad.png" alt="">
+                                        <div class="megabyte">2.4 MB</div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a href="" download>
+                                <img class="download-button-icon" src="icon/download-button.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="first-file">
+                            <img class="file-icon" src="icon/past-questions2.png" alt="">
+                            <div class="file-content">
+                                <div class="file-title">PHY 101 - Past Questions (2024 - 2026)</div>
+                                <div class="file-tag-2">Past Questions</div>
+                                <div class="date-download">
+                                    <div class="date-time-cont">
+                                        <img class="date-time-icon" src="icon/calender3.png" alt="">
+                                        <div class="date-posted">May 24, 2026</div>
+                                    </div>
+                                    <div class="megabyte-cont">
+                                        <img src="icon/notepad.png" alt="">
+                                        <div class="megabyte">1.8 MB</div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a href="" download>
+                                <img class="download-button-icon" src="icon/download-button.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="first-file">
+                            <img class="file-icon" src="icon/study-guides2.png" alt="">
+                            <div class="file-content">
+                                <div class="file-title">Study Guide: General Chemistry</div>
+                                <div class="file-tag-3">Study Guides</div>
+                                <div class="date-download">
+                                    <div class="date-time-cont">
+                                        <img class="date-time-icon" src="icon/calender3.png" alt="">
+                                        <div class="date-posted">May 24, 2026</div>
+                                    </div>
+                                    <div class="megabyte-cont">
+                                        <img src="icon/notepad.png" alt="">
+                                        <div class="megabyte">3.1 MB</div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a href="" download>
+                                <img class="download-button-icon" src="icon/download-button.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="first-file">
+                            <img class="file-icon" src="icon/video-tutorials2.png" alt="">
+                            <div class="file-content">
+                                <div class="file-title">How to prepare for Semester Exams</div>
+                                <div class="file-tag-4">Video Tutorials</div>
+                                <div class="date-download">
+                                    <div class="date-time-cont">
+                                        <img class="date-time-icon" src="icon/calender3.png" alt="">
+                                        <div class="date-posted">May 24, 2026</div>
+                                    </div>
+                                    <div class="megabyte-cont">
+                                        <img src="icon/notepad.png" alt="">
+                                        <div class="megabyte">45.6 MB</div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a href="" download>
+                                <img class="download-button-icon" src="icon/download-button.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="first-file">
+                            <img class="file-icon" src="icon/useful-website.png" alt="">
+                            <div class="file-content">
+                                <div class="file-title-links">Useful Academic Websites</div>
+                                <div class="file-tag-5">Useful Links</div>
+                                <div class="date-download">
+                                    <div class="date-time-cont">
+                                        <img class="date-time-icon" src="icon/calender3.png" alt="">
+                                        <div class="date-posted">May 24, 2026</div>
+                                    </div>
+                                    <div class="megabyte-cont">
+                                        <img src="icon/notepad.png" alt="">
+                                        <div class="megabyte">-</div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a href="" download>
+                                <img class="download-button-link" src="icon/download-button.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="first-file">
+                            <img class="file-icon" src="icon/e-book2.png" alt="">
+                            <div class="file-content">
+                                <div class="file-title-ebook">Engineering Physics e-Book</div>
+                                <div class="file-tag-1">E-Books</div>
+                                <div class="date-download">
+                                    <div class="date-time-cont">
+                                        <img class="date-time-icon" src="icon/calender3.png" alt="">
+                                        <div class="date-posted">May 24, 2026</div>
+                                    </div>
+                                    <div class="megabyte-cont">
+                                        <img src="icon/notepad.png" alt="">
+                                        <div class="megabyte">5.7 MB</div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a href="" download>
+                                <img class="download-button-ebook" src="icon/download-button.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="access-upload">
+                    <div class="quick-access-container">
+                        <div class="quick-access">Quick Access</div>
+                        <div class="access-dash"></div>
+                        <div class="tutorial-schedule-content">
+                            <img class="access-icons" src="icon/calender2.png" alt="">
+                            <div class="tutorial-schedule-txt">
+                                <div class="tutorial-schedule-tit">Tutorial Schedule</div>
+                                <div class="tutorial-schedule-words">View current tutorial timetable</div>
+                            </div>
+                        </div>
+                        <div class="tutorial-schedule-content">
+                            <img class="access-icons" src="icon/calender2.png" alt="">
+                            <div class="tutorial-schedule-txt">
+                                <div class="tutorial-schedule-tit">Exam Timetable</div>
+                                <div class="tutorial-schedule-words">Check examination timetable</div>
+                            </div>
+                        </div>
+                        <div class="tutorial-schedule-content">
+                            <img class="access-icons" src="icon/department-tutors.png" alt="">
+                            <div class="tutorial-schedule-txt">
+                                <div class="tutorial-schedule-tit">Departmet Contacts</div>
+                                <div class="tutorial-schedule-words">Get in touch with tutors</div>
+                            </div>
+                        </div>
+                        <div class="tutorial-schedule-content">
+                            <img class="access-icons" src="icon/calender2.png" alt="">
+                            <div class="tutorial-schedule-txt">
+                                <div class="tutorial-schedule-tit">Academic Calender</div>
+                                <div class="tutorial-schedule-words">Important academic dates</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Upload-container">
+                        <div class="upload-title">Upload a Resource</div>
+                        <div class="upload-dash"></div>
+                        <div class="upload-question">Have useful materials to share?</div>
+                        <div class="upload-help">Upload and help other students learn.</div>
+                        <button class="upload-button">
+                            <img class="upload-icon" src="icon/upload.png" alt="">
+                            Upload Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-main-section">
+                <div class="bottom-first">
+                    <img class="logo" src="btc_logo/Screenshot-2025-12-10-223653.png" alt="">
+                    <div class="bottom-text">
+                        <div class="bottom-tutorial-name">
+                            BEST TUTORIAL CENTER
+                        </div>
+                        <div class="bottom-tagline">
+                            Quality Tutorials, Better Understanding, Brighter Future.
+                        </div>
+                    </div> 
+                    
+                    <div class="quicklink-container">
+                        <div class="quick-link">Quick Links</div>
+                        <nav>
+                            <a class="bottom-nav" href="btc_home_page.html">
+                                <div class="home">Home</div>
+                            </a>
+                            <a class="bottom-nav" href="btc_about.html">
+                                <div class="bot-about">About Us</div>
+                            </a>
+                            <a class="bottom-nav" href="btc_service.html">
+                                <div class="bot-services">Services</div>
+                            </a>
+                            <a class="bottom-nav" href="btc_history.html">
+                                <div class="bot-history">History</div>
+                            </a>
+                        </nav>
+                    </div>
+
+                    <div class="support-container">
+                        <div class="support">Support</div>
+                        <nav>
+                            <a class="bottom-nav" href="">
+                                <div class="faq">FAQ</div>
+                            </a>
+                            <a class="bottom-nav" href="">
+                                <div class="resources">Resources</div>
+                            </a>
+                            <a class="bottom-nav" href="">
+                                <div class="bot-contact">Contact us</div>
+                            </a>
+                        </nav>
+                    </div>
+
+                    <div class="contact-container">
+                        <div class="head-contact">Contact Us</div>
+                        <div class="phone-line">
+                            <img class="phone-icon" src="icon/phone.png" alt="">
+                            +234 807 303 0129
+                        </div>
+                        <div class="email">
+                            <img class="email-icon" src="icon/email.png" alt="">
+                            anuoluwajosephcr7@gmail.com
+                        </div>
+                        <div class="location">
+                            <img class="location-icon" src="icon/location.png" alt="">
+                            LAUTECH, Ogbomoso, Oyo State, Nigeria.
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="copyright">&copy; 2026 BEST TUTORIAL CENTER</div>
+            </div>
+        </main>
+    </body>
+</html>

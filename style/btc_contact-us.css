@@ -1,0 +1,410 @@
+.top-main-section {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    height: 300px;
+    background: linear-gradient(to right, rgba(3,25,56,0.95) 30%, rgba(3,25,56,0.35));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    z-index: 1;
+}
+
+.text-container {
+    display: inline-block;
+}
+
+.contact-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: white;
+}
+
+.underline {
+    background-color: orange;
+    width: 200px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.tag-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: orange;
+}
+
+.contact-description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    width: 428px;
+    margin-top: 10px;
+    color: white;
+    line-height: 30px;
+}
+
+.lautech-school-gate {
+    position: absolute;
+    height: 300px;
+    width: 1345px;
+    object-fit: cover;
+    right: 0px;
+    left: 0px;
+    filter: opacity(0.1);
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    right: 600px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+}
+
+.dot {
+    width: 18px;
+    height: 6px;
+    background: white;
+    border-radius: 20px;
+}
+
+.contact-middle-section {
+    position: absolute;
+    top: 380px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.send-message-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-message-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(3,25,56);
+}
+
+.send-message-dash {
+    background-color: orange;
+    height: 2px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.contact-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.fullname,
+.email-address,
+.phone-number,
+.subject,
+.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(3,25,56);
+    margin-bottom: 5px;
+}
+
+.fullname-input,
+.email-address-input,
+.phone-number-input,
+.subject-input {
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 10px;
+    height: 35px;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.15);
+}
+
+.message-textarea {
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 10px;
+    height: 70px;
+    width: 400px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.15);
+}
+
+.contact-information-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contact-information-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3,25,56);
+}
+
+.information-dash {
+    background-color: orange;
+    height: 2px;
+    width: 35px;
+    margin-top: 10px;
+}
+
+.location-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 85px;
+    width: 350px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.15);
+}
+
+.phone-content-container,
+.email-content-container,
+.hours-content-container,
+.follow-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 85px;
+    width: 350px;
+    margin-top: 1px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.15);
+}
+
+.contact-information-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+.location-content,
+.phone-content,
+.email-content,
+.hours-content,
+.follow-content {
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+.title {
+    font-weight: bold;
+    color: rgb(3,25,56);
+}
+
+.text {
+    color: rgb(15, 50, 100);
+}
+
+.follow-header {
+    font-weight: bold;
+    color: rgb(3,25,56);
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin {
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.find-us-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.find-us-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3,25,56);
+}
+
+.find-us-dash {
+    background-color: orange;
+    height: 2px;
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.map {
+    height: 280px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.need-assistance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 140px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.need-assistance-icon {
+    height: 70px;
+    width: 60px;
+    margin-left: 30px;
+}
+
+.need-assistance-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin-left: 30px;
+}
+
+.need-assistance-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(3,25,56);
+}
+
+.need-assistance-txt {
+    color: rgb(15, 50, 100);
+    margin-bottom: 10px;
+}
+
+.get-support-button {
+    font-weight: bold;
+    background-color: rgb(3,25,56);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.bottom-main-section {
+    position: absolute;
+    top: 890px;
+    left: 0px;
+    right: 0px;
+    height: 180px;
+    background-color: rgb(3,25,56);
+}
+
+.bottom-first {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-tutorial-name{
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bottom-tagline{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.quicklink-container,
+.support-container,
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color: white;
+}
+
+.quick-link,
+.support,
+.head-contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bottom-nav {
+    text-decoration: none;
+    color: white;
+}
+
+.home,
+.bot-about,
+.bot-services,
+.bot-history,
+.faq,
+.resources, 
+.bot-contact {
+    margin-bottom: 5px;
+}
+
+.phone-line,
+.email,
+.location {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.phone-icon,
+.location-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.email-icon {
+    height: 17px;
+    width: 17px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
