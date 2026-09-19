@@ -359,3 +359,189 @@
     white-space: nowrap;
     color: rgb(9, 39, 82);
 }
+
+@media (max-width: 600px) {
+
+    /* HERO SECTION */
+    .top-main-section {
+        position: relative;
+        top: 0;
+        height: 500px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .lautech-school-gate {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .text-container {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .welcome {
+        font-size: 24px;
+    }
+
+    .tutorial-name {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .tagline {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .description {
+        width: 100%;
+        max-width: 350px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .slider-dots {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: 20px;
+    }
+
+
+    /* MIDDLE SECTION */
+    .middle-main-section {
+        position: relative;
+        top: 0;
+        padding: 30px 15px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+
+    /* SERVICES */
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        width: 100%;
+        margin: 10px 0 20px;
+    }
+
+    .tutorial-session-container,
+    .personal-assistance-container,
+    .assignment-help-container,
+    .exam-preparation-container,
+    .history-records-container,
+    .noticeboard {
+        width: 100%;
+        height: 170px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .tutorial-icon,
+    .personal-ass-icon,
+    .assignment-icon,
+    .exam-icon,
+    .history-icon,
+    .notice-icon {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .title {
+        text-align: center;
+        padding: 0 5px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+
+    /* ABOUT + ANNOUNCEMENTS */
+    .both-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .little-about-us {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 15px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    .tutorial-pic {
+        width: 100%;
+        max-width: 250px;
+        height: 180px;
+        padding: 0;
+        margin: 0 auto 15px;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .about-description {
+        line-height: 24px;
+    }
+
+    .learnmore-button {
+        margin-bottom: 10px;
+    }
+
+
+    /* ANNOUNCEMENTS */
+    .announcement-container {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+        margin: 0;
+        box-sizing: border-box;
+        padding-bottom: 15px;
+    }
+
+    .announcement-heading {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .tutorial-resumption,
+    .assignment-submission,
+    .semester-tutorial-ends {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .resumption-date,
+    .submission-date,
+    .tutorial-ends-date {
+        white-space: normal;
+        line-height: 20px;
+    }
+
+    .date-posted {
+        position: static;
+        margin-left: auto;
+        padding-left: 10px;
+        white-space: nowrap;
+    }
+
+
+    /* BOTTOM SECTION */
+    .bottom-main-section {
+        position: relative;
+    }
+}
