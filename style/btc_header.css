@@ -51,3 +51,44 @@
     color: orange;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+
+    .header {
+        position: relative;
+        height: auto;
+        min-height: 70px;
+        flex-wrap: wrap;
+        padding: 5px 10px;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        width: 45px;
+        height: 45px;
+        margin-left: 5px;
+        margin-right: 8px;
+    }
+
+    .name {
+        width: auto;
+        font-size: 15px;
+    }
+
+    .middle-section {
+        width: 100%;
+        overflow-x: auto;
+        padding: 12px 5px;
+    }
+
+    nav {
+        display: flex;
+        width: max-content;
+    }
+
+    .nav {
+        margin-right: 15px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
